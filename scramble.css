@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container h1 {
+    background-color: black;
+    line-height: 15vh;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 1.8rem;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 white,
+        0 2px 0 white,
+        0 3px 0 white,
+        0 4px 0 white,
+        0 30px 5px white;
+}
+
+.footer {
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(black, aquamarine, rgb(13, 31, 13))
+}
+
+.secondfooter {
+    width: 50%;
+    height: 400px;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    box-shadow: 4px 8px 6px -6px black;
+}
+
+h3.msg {
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+
+input {
+    width: 40%;
+    padding: 15px 0;
+    /* top 15 and botton 0 */
+    text-align: center;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    margin: 2rem 0;
+    font-size: 1.1rem;
+    color: black;
+    font-weight: 880;
+}
+
+button {
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    border: #2f3542;
+    margin-top: 10px;
+    color: black;
+}
+
+button.btn {
+    font-weight: 600;
+    padding: 1rem 2rem;
+    background: white;
+    text-transform: uppercase;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: cubic-bezier(0.65, -0.25, 0.25, 1.95);
+
+}
+
+button.btn:hover,
+button.btn:focus,
+button.btn:active {
+    letter-spacing: 0.125rem;
+    word-spacing: 0.2rem;
+    background: linear-gradient(black, aquamarine);
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
